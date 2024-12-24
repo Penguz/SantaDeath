@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 
-    let countdownDate = new Date("Dec 24, 2024 20:0:0").getTime();
+    let countdownDate = new Date("Dec 24, 2024 19:0:0").getTime();
 
     let x = setInterval(function () {
         let now = new Date().getTime();
