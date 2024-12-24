@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function () {
         if (distance < 0) {
             clearInterval(x);
             const countdownElement = document.getElementById("countdown");
-            countdownElement.innerHTML = '<span>CA: </span><span class="select-all">Will be displayed in 1 minute.</span>'; // CHANGE CA HERE
+            countdownElement.innerHTML = '<span>CA: </span><span class="select-all">58DEXUMv2wr4mwhtTZpMX7D8rFobCN5FcP6gWsanpump</span>'; // CHANGE CA HERE
 
             const copyTextElement = countdownElement.querySelector(".select-all");
             copyTextElement.addEventListener('click', copyText);
